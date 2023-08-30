@@ -1,0 +1,31 @@
+
+*{
+text-align:center ;
+}
+
+#primer_td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: darkcyan;
+    background-image: url(...imgIMG_20221108_101929572.jpg);
+    text-align:  left;
+}
+
+#segundo_td {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: #d66666;
+}
+
+.Mi_clase {
+    font-family: Calibri;
+    font-size: 20px;
+    color: aqua;
+}
+
+td{
+    font-size: 8px;
+}
+.misbordes{
+    margin: 205px 705px 300px 500px;
+}
