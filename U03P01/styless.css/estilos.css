@@ -1,59 +1,61 @@
 * {
-    font-family: sans-serif;
-  }
-  h1 {
-    font-size: 24px;
-    color: #242424;
-    font-weight: 900;
-  }
-  h2 {
-    font-size: 20px;
-    color: #606060;
-    font-weight: 800;
-  }
-  p {
-    font-size: 14px;
-  }
-  li {
-    font-family: monospace;
-    font-size: 18px;
-  }
-  a {
-    font-weight: bold;
-  }
-  li a {
-    color: orange;
-    text-decoration: underline;
-  }
-  p {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
- li {
-    margin-left: 100px;
-    padding: 20px;
-    border: 2px solid blue;
-  }
-  ul.provincias-neuquen-rio-negro > li {
-    color: green;
-  }
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
-  ul.provincias-neuquen-rio-negro > a {
-    color: green;
-  }
-  li {
-    max-width: 40%;
-  }
-  html {
-    background-color: rgb(245, 245, 245);
-  }
- li {
-    list-style: none;
-    padding-left: 0;
-  }
-  li {
-    padding: 10px;
-  }
-  li:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
+html{
+  background-color: rgb(245, 245, 245);
+}
+
+h1 {
+  font-size: 24px;
+  color: #242424;
+  width: 900px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #606060;
+  width: 800px;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px 0px;
+}
+
+ul {
+  margin-left: 100px;
+  padding: 20px;
+  list-style: none;
+  border-style: solid; border-width: 2px; border-color: blue;
+  max-width: 40%;
+}
+
+ul li {
+  font-family: monospace;
+  font-size: 18px;
+  padding: 10px;
+  
+}
+
+.linklista {
+  font-weight: bold;
+  color: darkorange;
+  text-decoration: underline;
+}
+
+.verde {
+  color: darkgreen;
+}
+
+ul li:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+li > a {
+  font-weight: bold;
+  color: darkgreen;
+  text-decoration: underline;
+}
