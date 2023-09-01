@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: rgb(240, 240, 240);
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            width: 1024px;
+            margin: 0 auto;
+        }
+        .blackground-red {
+            background-color: red;
+            color: white;
+        }
+        .tabla-container {
+            border-radius: 15px;
+            border: 1px solid #c5c5c5;
+            overflow: hidden;
+        }
+        table.table-custom {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table.table-custom thead{
+            background-color: rgb(250, 250, 250);
+        }
+        table.table-custom thead th{
+           text-align: center;
+           color: #727272;
+           padding: 10px 20px;
+           font-size: 14px;
+           font-weight: bold;
+           text-transform: uppercase;
+           border-bottom: 1px solid #727272;
+        }
+        table.table-custom tbody{
+            background-color: rgb(250, 250, 250);
+        }
+        table.table-custom tbody tr:hover td{
+            background-color: rgb(205, 205, 255);
+        }
+        table.table-custom tbody td{
+            border-bottom: 1px solid #727272;
+            padding: 15px 20px;
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="blackground-red">este es mi titulo</h1>
+        <div class="tabla-container">
+            <table class="table-custom">
+                <thead>
+                    <tr>titulo 1</tr>
+                    <tr>titulo 2</tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>texto contenido</td>
+                        <td>segundo contenido</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
